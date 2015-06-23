@@ -1,0 +1,14 @@
+{
+  "name": "node_cluster_module",
+  "version": "1.0.0",
+  "description": "A series of examples showing how Node cluster module can be used to improve performance and reliability",
+  "main": "simple.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
