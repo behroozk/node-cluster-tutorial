@@ -1,7 +1,7 @@
 ## Node Cluster Module Examples
 -------------------------------
 
-This repo contains several examples on how Node.js cluster module can be used to increase performance of Node applications.
+This repo contains several examples on how Node.js cluster module can be used to increase performance of Node applications. The complete article is [here](http://www.sitepoint.com/how-to-create-a-node-js-cluster-for-speeding-up-your-apps/ "How to create a node.js cluster for speeding up your apps").
 
 To clone this repo in your machine:
 
