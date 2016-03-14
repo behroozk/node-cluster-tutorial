@@ -54,7 +54,7 @@ if(cluster.isMaster) {
 	});
 } else {
 	process.on('message', function(message) {
-		if(message.type === 'shutdown') {
+		if(message.text === 'shutdown') {
 			process.exit(0);
 		}
 	});
