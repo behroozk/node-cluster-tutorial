@@ -9,7 +9,7 @@ var cluster = require('cluster'),
 
 		workerIds.forEach(function(wid) {
 			cluster.workers[wid].send({
-				text: 'shutdown',
+				type: 'shutdown',
 				from: 'master'
 			});
 
